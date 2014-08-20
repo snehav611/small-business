@@ -1,0 +1,160 @@
+* {
+	font-family: Helvetica, sans-serif;
+	font-size: small;
+}
+body {
+	margin: 0px;
+}
+#bluetop {
+	width: 100%;
+	height: 50px;
+	background-color: #4B5A66;
+}
+#header {
+	position: relative;
+	left: 50;
+	margin: auto;
+	width: 1000px;
+}
+#logo{
+	position: relative; 
+	left: -10px;
+	top: 20px;
+	width: 500px;
+	height: auto;
+	float: left;
+	margin-bottom: 30px;
+}
+#toplinks {
+	position: relative; 
+	top: 60px;
+	float: right;
+	vertical-align: middle;
+	line-height: 200%;
+}
+#cart {
+	width: 25px;
+	vertical-align: middle;
+	opacity: 0.4;
+}
+#carthover:hover {
+	text-decoration: underline;
+}
+.firstrow {
+	margin-right: 20px;
+	margin-left: 10px;
+}
+.firstrow:hover {
+	text-decoration: underline;
+}
+.secondrow {
+	margin-left: 10px;
+}
+#search {
+	width: 250px;
+	height: 20px;
+	background: url(images/enter.png) no-repeat right;
+}
+#checkout {
+	background-color: #65233B;
+	border: none;
+	color: white;
+	height: 30px;
+	width: 100px;
+}
+#links { 
+	color: gray;
+	clear: both;
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	table-layout: fixed;
+	text-align: justify;
+}
+.click {
+	margin-right: 130px;
+}
+.click:hover {
+	text-decoration: underline;
+}
+#lastclick {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#lastclick:hover {
+	text-decoration: underline;
+}
+#offer{
+	background: url(images/main.jpg) no-repeat center;
+	height: 750px;
+	color: #FFEEDE;
+	margin-top: -30px;
+	margin-bottom: 50px;
+}
+#offertext {
+	position: relative;
+	text-align: right;
+	right: 200px;
+	top: 400px;
+	font-size: 48px;
+	font-family: Garamond;
+}
+#percent{
+	font-size: 200px;
+	font-family: Garamond;
+}
+legend {
+	text-align: center;
+	font-family: Garamond;
+	font-size: 20px;
+}
+fieldset {
+	width: 1000px;
+	position: relative;
+	left: 50;
+	margin: auto;
+	border: 2px solid #8F8F8F;
+	font-family: Garamond;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.featured {
+	width: 330px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+#bluebottom {
+	width: 100%;
+	height: 100px;
+	background-color: #4B5A66;
+}
+#footer {
+	width: 1035px;
+	position: relative;
+	left: 50;
+	margin: auto;
+	color: white;
+}
+.box {
+	width: 250px;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 83px;
+}
+#email {
+	width: 185px;
+	position: relative;
+	bottom: 20px;
+	background: white url(images/enter.png) no-repeat right;
+}
+.header {
+	text-align: center;
+	font-weight: bold;
+	color: #FFEEDE;
+	text-decoration: none;
+}
+.morelinks:hover {
+	text-decoration: underline;
+}
